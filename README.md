@@ -2,6 +2,8 @@
 
 一款使用 chatGPT 总结 b 站视频内容到 Notion 的 python 命令行工具。通过爬取 b 站的 cc 字幕，然后送到 chatGPT 当中获得汇总文本，再写入 Notion。是对[段小草](https://zhuanlan.zhihu.com/p/610250035)发布在知乎的文章内的程序的改进
 
+![readmeImg.png](readmeImg.png)
+
 原作者 gist：[https://gist.github.com/loveQt/1714808c6ee8b732596ecb6e38c23ea7](https://gist.github.com/loveQt/1714808c6ee8b732596ecb6e38c23ea7)
 
 ## Quick Start
