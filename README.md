@@ -46,3 +46,16 @@ chatGPT编写摘要成功
 ```
 
 有些时候（遇到自动生成的字幕时）会要求你输入 cookie，你需要按下 F12 打开控制台，找到 Network，并搜索 https://api.bilibili.com/x/player/v2 这个接口，将其请求头当中的 cookie 复制后填入这里。程序会在本地保存 cookie 的内容，这样不需要每次请求都要手动输入一次。
+
+## Commands
+
+```
+python main.py --help
+
+options:
+  -h, --help            show this help message and exit
+  --bv BV               获取bv号
+  -p P                  分p，默认为0
+  --summary_count SUMMARY_COUNT
+                        需要的精简概括的数量（默认为10条）
+```
